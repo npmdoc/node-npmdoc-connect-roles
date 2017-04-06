@@ -1,17 +1,40 @@
 {
-    "buildNpmdoc":"connect-roles",
+    "author": "kai zhu <kaizhu256@gmail.com>",
+    "buildNpmdoc": "connect-roles",
+    "description": "api documentation for [connect-roles (v3.1.2)](http://documentup.com/ForbesLindesay/connect-roles) [![npm package](https://img.shields.io/npm/v/npmdoc-connect-roles.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-connect-roles) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-connect-roles.svg)](https://travis-ci.org/npmdoc/node-npmdoc-connect-roles)",
     "devDependencies": {
         "connect-roles": "*",
         "electron-lite": "kaizhu256/node-electron-lite#alpha",
         "utility2": "kaizhu256/node-utility2#alpha"
     },
-    "name":"npmdoc-connect-roles",
+    "engines": {
+        "node": ">=4.0"
+    },
+    "homepage": "https://github.com/npmdoc/node-npmdoc-connect-roles",
+    "keywords": [
+        "documentation",
+        "connect-roles"
+    ],
+    "license": "MIT",
+    "main": "lib.npmdoc_connect_roles.js",
+    "name": "npmdoc-connect-roles",
+    "nameAlias": "npmdoc_connect_roles",
+    "nameOriginal": "npmdoc-connect-roles",
+    "os": [
+        "darwin",
+        "linux"
+    ],
     "repository": {
         "type": "git",
         "url": "https://github.com/npmdoc/node-npmdoc-connect-roles"
     },
     "scripts": {
-        "build-ci": "utility2 shReadmeTest build_ci.sh"
+        "build-ci": "utility2 shReadmeTest build_ci.sh",
+        "env": "env",
+        "heroku-postbuild": "(set -e; npm install \"kaizhu256/node-utility2#alpha\"; utility2 shDeployHeroku)",
+        "postinstall": "if [ -f npm_scripts.sh ]; then ./npm_scripts.sh postinstall; fi",
+        "start": "(set -e; export PORT=${PORT:-8080}; utility2 start test.js)",
+        "test": "(set -e; export PORT=$(utility2 shServerPortRandom); utility2 test test.js)"
     },
     "version": "0.0.1"
 }
