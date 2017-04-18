@@ -1,9 +1,14 @@
-# api documentation for  [connect-roles (v3.1.2)](http://documentup.com/ForbesLindesay/connect-roles)  [![npm package](https://img.shields.io/npm/v/npmdoc-connect-roles.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-connect-roles) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-connect-roles.svg)](https://travis-ci.org/npmdoc/node-npmdoc-connect-roles)
+# npmdoc-connect-roles
+
+#### api documentation for  [connect-roles (v3.1.2)](http://documentup.com/ForbesLindesay/connect-roles)  [![npm package](https://img.shields.io/npm/v/npmdoc-connect-roles.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-connect-roles) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-connect-roles.svg)](https://travis-ci.org/npmdoc/node-npmdoc-connect-roles)
+
 #### Provides dynamic roles based authorization for node.js connect and express servers.
 
-[![NPM](https://nodei.co/npm/connect-roles.png?downloads=true)](https://www.npmjs.com/package/connect-roles)
+[![NPM](https://nodei.co/npm/connect-roles.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/connect-roles)
 
-[![apidoc](https://npmdoc.github.io/node-npmdoc-connect-roles/build/screenCapture.buildNpmdoc.browser._2Fhome_2Ftravis_2Fbuild_2Fnpmdoc_2Fnode-npmdoc-connect-roles_2Ftmp_2Fbuild_2Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-connect-roles/build/apidoc.html)
+- [https://npmdoc.github.io/node-npmdoc-connect-roles/build/apidoc.html](https://npmdoc.github.io/node-npmdoc-connect-roles/build/apidoc.html)
+
+[![apidoc](https://npmdoc.github.io/node-npmdoc-connect-roles/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-connect-roles/build/apidoc.html)
 
 ![npmPackageListing](https://npmdoc.github.io/node-npmdoc-connect-roles/build/screenCapture.npmPackageListing.svg)
 
@@ -52,13 +57,11 @@
     "main": "./index",
     "maintainers": [
         {
-            "name": "forbeslindesay",
-            "email": "forbes@lindesay.co.uk"
+            "name": "forbeslindesay"
         }
     ],
     "name": "connect-roles",
     "optionalDependencies": {},
-    "readme": "ERROR: No README data found!",
     "repository": {
         "type": "git",
         "url": "git://github.com/ForbesLindesay/connect-roles.git"
@@ -69,16 +72,6 @@
     "version": "3.1.2"
 }
 ```
-
-
-
-# <a name="apidoc.tableOfContents"></a>[table of contents](#apidoc.tableOfContents)
-
-#### [module connect-roles](#apidoc.module.connect-roles)
-
-
-
-# <a name="apidoc.module.connect-roles"></a>[module connect-roles](#apidoc.module.connect-roles)
 
 
 
