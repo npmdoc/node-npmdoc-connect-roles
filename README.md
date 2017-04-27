@@ -1,6 +1,6 @@
 # npmdoc-connect-roles
 
-#### api documentation for  [connect-roles (v3.1.2)](http://documentup.com/ForbesLindesay/connect-roles)  [![npm package](https://img.shields.io/npm/v/npmdoc-connect-roles.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-connect-roles) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-connect-roles.svg)](https://travis-ci.org/npmdoc/node-npmdoc-connect-roles)
+#### basic api documentation for  [connect-roles (v3.1.2)](http://documentup.com/ForbesLindesay/connect-roles)  [![npm package](https://img.shields.io/npm/v/npmdoc-connect-roles.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-connect-roles) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-connect-roles.svg)](https://travis-ci.org/npmdoc/node-npmdoc-connect-roles)
 
 #### Provides dynamic roles based authorization for node.js connect and express servers.
 
@@ -69,7 +69,8 @@
     "scripts": {
         "test": "mocha -R spec"
     },
-    "version": "3.1.2"
+    "version": "3.1.2",
+    "bin": {}
 }
 ```
 
